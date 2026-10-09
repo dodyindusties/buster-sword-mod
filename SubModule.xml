@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="BusterSwordFF7"/>
+	<Id value="BusterSwordFF7"/>
+	<Version value="v1.3.0"/>
+	<DefaultModule value="false"/>
+	<ModuleCategory value="Singleplayer"/>
+	<Official value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.3.0" Optional="false"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.3.0" Optional="false"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.3.0" Optional="false"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.3.0" Optional="false"/>
+	</DependedModules>
+	<SubModules>
+
+</SubModules>
+ 
+	<Xmls>
+		<XmlNode>
+			<XmlName id="CraftingPieces" path="crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="WeaponDescriptions" path="weapon_descriptions"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="CraftingTemplates" path="crafting_templates"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+        <XmlName id="Items" path="BusterSwordFF7weapons" />
+        <IncludedGameTypes>
+            <GameType value="Campaign" />
+            <GameType value="CampaignStoryMode" />
+            <GameType value="CustomGame" />
+            <GameType value="EditorGame" />
+        </IncludedGameTypes>
+    </XmlNode>
+	</Xmls>
+</Module>

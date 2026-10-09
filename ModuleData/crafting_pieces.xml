@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+	<CraftingPiece
+		id="buster_ff7_blade"
+		name="{=}Buster Sword Blade"
+		tier="5"
+		piece_type="Blade"
+		mesh="busterblade"
+		length="135"
+		weight="1.6"
+		full_scale="true">
+		<BuildData
+			previous_piece_offset="25" />
+		<BladeData
+			stack_amount="3"
+			physics_material="metal_weapon"
+			body_name="bo_sword_two_handed"
+			holster_mesh="">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="1.45" />
+			<Swing
+				damage_type="Cut"
+				damage_factor="5.4" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron3"
+				count="10" />
+		</Materials>
+		<Flags>
+			<Flag
+				name="CanKnockDown" />
+			<Flag
+				name="BonusAgainstShield" />
+		</Flags>
+	</CraftingPiece>
+	<CraftingPiece
+		id="buster_ff7_grip"
+		name="{=}Buster Sword Grip"
+		tier="4"
+		piece_type="Handle"
+		mesh="BusterHandle"
+		length="31.2"
+		weight="0.2"
+		item_holster_pos_shift="0,0,-0.1">
+		<BuildData
+			previous_piece_offset="2" />
+		<Materials>
+			<Material
+				id="Iron2"
+				count="2" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+		id="buster_ff7_guard"
+		name="{=}Buster Sword Guard"
+		tier="3"
+		piece_type="Guard"
+		mesh="busterguard"
+		length="5"
+		weight="0.3">
+		<BuildData
+			previous_piece_offset="0" />
+		<Materials>
+			<Material
+				id="Iron2"
+				count="2" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+		id="buster_ff7_pommel"
+		name="{=}Buster Sword Pommel"
+		tier="2"
+		piece_type="Pommel"
+		mesh="busterpommel"
+		length="8.1"
+		weight="0.1">
+		<BuildData
+			previous_piece_offset="5" />
+		<Materials>
+			<Material
+				id="Iron2"
+				count="2" />
+		</Materials>
+	</CraftingPiece>
+</CraftingPieces>
