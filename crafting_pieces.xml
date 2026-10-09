@@ -10,7 +10,7 @@
 		weight="1.6"
 		full_scale="true">
 		<BuildData
-			previous_piece_offset="18" />
+			previous_piece_offset="5" />
 		<BladeData
 			stack_amount="3"
 			physics_material="metal_weapon"
@@ -58,7 +58,7 @@
 		tier="3"
 		piece_type="Guard"
 		mesh="busterguard"
-		length="3.5"
+		length="8.5"
 		weight="0.3">
 		<BuildData
 			previous_piece_offset="0" />
